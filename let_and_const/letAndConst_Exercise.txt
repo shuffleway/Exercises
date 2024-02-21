@@ -1,0 +1,43 @@
+What is the difference between var and let?
+Ans: 
+1. Variables declared with var can be accessed in the entire function they are defined, 
+while those declared with let are limited only withing the block they are declared
+2.  Variables declared with var are hoisted and initialized. They can be accessed before 
+their actual declaration, but their value is undefined untill the declaration is reached.
+3. var create global scoped property : e.g var PI = 3.14;, console.log(window.PI); , where as 
+let does not allow that to happen
+
+What is the difference between var and const?
+Ans:
+1. const as well as let are block-scoped, limited to a particular block, while var is 
+not limited, but can be accessed in the entire function. 
+2. const variable cannot be redeclared and updated, while var can be re-declared and updated.
+
+What is the difference between let and const?
+1. let allows reassignment within a scope. reassignment in const is not possible. 
+
+What is hoisting?
+This is a process by which variable declaration are move to the top of their scope, prior to execution of the code.
+
+When you declare a function using the function keyword, the entire function (including its body) is hoisted to the 
+top of its containing scope.
+
+Example: 
+sayHello(); // This works even though the function is defined later
+
+function sayHello() {
+  console.log("Hello!");
+}
+
+- With Var, the variable name and its undefined value can be accessed before its declaration.
+Example 2:
+console.log(PI); //undefined
+var PI = 3.4
+
+- With let and const, their variable are hoisted within the scope of the block they are defined. 
+if(true){
+    let x = 5;
+    console.log(x); // This give 5
+}
+
+console.log(x); //This will not work
