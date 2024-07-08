@@ -28,10 +28,6 @@ app.use("/", messageRoutes);
 
 
 
-
-
-
-
 /** 404 catch --- passes to next handler. */
 
 app.use(function (req, res, next) {

@@ -15,9 +15,12 @@ const ExpressError = require("../expressError");
 router.post("/auth/login", async (req, res, next) => {
     try{
         let {username, password} = req.body;
+
         if(await User.authenticate(username, password)){
          let token = jwt.sign({username}, SECRET_KEY);
-         User.updateLoginTimestamp(username);
+
+        await User.updateLoginTimestamp(username);
+
          return res.json({token});
         }
         else {
