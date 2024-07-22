@@ -1,0 +1,42 @@
+.EightBall {
+  box-shadow: 5px 5px 10px #678;
+  margin: 50px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.EightBall-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EightBall-reset {
+  margin-top: 5px;
+  margin-bottom: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #678;
+  color: white;
+  box-shadow: 3px 3px 5px #345;
+}
+
+.EightBall-stats {
+  margin-top: -40px;
+  text-align: center;
+}
+
+.EightBall-stats p {
+  margin: 5px 0;
+}
