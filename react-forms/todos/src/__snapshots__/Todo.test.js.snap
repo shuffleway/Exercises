@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="todo"
+  >
+    <span />
+    <button>
+      Edit
+    </button>
+    <button
+      class="todo-button"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when editing 1`] = `
+<DocumentFragment>
+  <div
+    class="todo"
+  >
+    <form>
+      <input
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Update!
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
