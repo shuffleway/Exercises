@@ -1,0 +1,56 @@
+
+.vending-machine {  
+    display: flex;
+    align-items: center;
+    background-position: center;
+    justify-content: space-between;
+    background-image: url('https://evending.com/cdn/shop/files/OutdoorSnackandDrinkCombinationVendingMachine_2048x2048_4e90005a-7f50-4188-a14a-70a1de9bf659.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+  .VendingMachine-p {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: aliceblue;
+    width: 15%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 5%;
+  }
+  
+  .VendingMachine-link {
+    background-color: rgba(51, 51, 51, 0.8);
+    width: 15%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 5%;
+  }
+  
+  .vending-machine ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .vending-machine li {
+    margin: 10px 0;
+  }
+  
+  .vending-machine a {
+    color: white;
+    background-color: #28a745;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .vending-machine a:hover {
+    background-color: #218838;
+  }
+  

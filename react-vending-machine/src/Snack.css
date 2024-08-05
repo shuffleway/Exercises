@@ -1,0 +1,27 @@
+.snack {
+    margin-top: 20px;
+  }
+  
+  .snack img {
+    max-width: 2000px;
+    height: auto;
+  }
+  
+  .snack p {
+    font-size: 1.2em;
+  }
+  
+  .snack a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .snack a:hover {
+    background-color: #218838;
+  }
+  
