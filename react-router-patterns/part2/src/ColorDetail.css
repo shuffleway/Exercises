@@ -1,0 +1,35 @@
+.ColorDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .ColorDetail-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .ColorDetail p {
+    font-size: 1.5em;
+  }
+  
+  .ColorDetail a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .ColorDetail a:hover {
+    background-color: #0056b3;
+  }
+  
