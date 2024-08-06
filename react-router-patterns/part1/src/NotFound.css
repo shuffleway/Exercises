@@ -1,0 +1,36 @@
+.NotFound {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .NotFound h1 {
+    color: #dc3545;
+    font-size: 5em;
+    margin-bottom: 20px;
+  }
+  
+  .NotFound p {
+    color: #495057;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .NotFound a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s, text-shadow 0.3s;
+  }
+  
+  .NotFound a:hover {
+    color: #0056b3;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  

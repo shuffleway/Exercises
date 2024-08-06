@@ -1,0 +1,39 @@
+.DogList {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  .DogList h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .DogList ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .DogList li {
+    margin: 10px 0;
+  }
+  
+  .DogList a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s, text-shadow 0.3s;
+  }
+  
+  .DogList a:hover {
+    color: #0056b3;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .DogList a:visited {
+    color: #6c757d;
+  }
+  
