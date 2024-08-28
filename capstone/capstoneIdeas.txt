@@ -1,0 +1,55 @@
+Capstone Ideas
+
+1. Nonprofit Organization Management System
+
+Overview: Develop a management system for a nonprofit organization that supports members by facilitating 
+donations during bereavement, managing membership contributions, overseeing group investments, and sending reminders. 
+The system will also track the organization's investments in companies like real estate.
+
+Core Features:
+User Roles: Admins, members, and donors, with role-based access control.
+Membership Management: Application process, profile management, and membership dues tracking.
+Donation Management: Facilitate and track donations, especially for bereavement support.
+Group Investments: Manage contributions to group projects and track investment performance.
+Communication: Automated reminders, notifications, and messaging system for members.
+Event and Project Management: Schedule events, manage group projects, and track RSVPs.
+Financial Management: Detailed records of transactions, contribution history, and budget tracking.
+Analytics: Dashboard and reporting features to monitor contributions, membership, and investments.
+Security: Secure data handling and compliance with financial regulations.
+Mobile Responsiveness: Ensure accessibility on mobile devices.
+
+
+
+2. Online Booking and Reservation System for Hair Braiding
+Overview: Create a platform where users can book hair braiding appointments, choose styles, pay a security fee, rate braiders, 
+leave tips, and manage monthly subscriptions.
+
+Core Features:
+User Roles: Customers, braiders, and admins, each with specific functionalities.
+Booking System: Users can browse hairstyles, schedule appointments, and pay a security fee online.
+Ratings and Reviews: Customers can rate braiders and leave reviews after their appointments.
+User Management: Profiles, booking history, and notifications for users.
+Monthly Subscription: Offer subscription plans for regular services with auto-renewal.
+Admin Dashboard: Manage users, bookings, and financial reports.
+Braider Management: Braiders can manage availability, bookings, and view earnings.
+Security: Implement secure payments and data protection.
+Mobile-Friendly: Ensure the platform is accessible on mobile devices.
+
+3.  Full-Featured E-Commerce Platform
+Overview: Develop a comprehensive e-commerce platform where users can browse products, 
+add items to their cart, and complete purchases. 
+Admin users can manage inventory, orders, and users.
+
+Core Features:
+User Roles: Customers can shop and manage profiles; Admins can manage inventory, orders, and user accounts.
+Product Catalog: Users can browse and search for products with detailed descriptions and reviews.
+Shopping Cart: Users can securely add items to their cart, manage quantities, and checkout.
+Checkout Process: Secure payment integration and order confirmation with shipping options.
+Order Management: Track orders and view order history; Admins can process and manage orders.
+Inventory Management: Admins can manage stock levels and organize products by category.
+User Management: Profile management for users and admin-controlled user accounts.
+Analytics: Sales and user activity reports for admins.
+Promotions: Manage discounts and promotional codes.
+Security: Secure authentication, payment processing, and data protection.
+Mobile Responsiveness: Ensure the platform works seamlessly on mobile devices.
+
