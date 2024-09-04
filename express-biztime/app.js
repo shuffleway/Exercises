@@ -5,29 +5,29 @@ const ExpressError = require("./expressError")
 
 app.use(express.json());
 
-const companiesRoutes = require("./routes/companies");
-const invoicesRoutes = require("./routes/invoices");
+const comRoutes = require("./routes/companies")
+const invRoutes = require("./routes/invoices")
 
-app.use("/companies", companiesRoutes);
-app.use("/invoices", invoicesRoutes);
+// Mount routes here
+app.use("/companies", comRoutes);
+app.use("/invoices", invRoutes);
 
-/**404 handler */
+/** 404 handler */
 
-app.use((req, res, next) => {
-  const err = new ExpressError('Not Found', 404);
-  
-  //pass err to the next middleware
+app.use(function(req, res, next) {
+  const err = new ExpressError("Not Found", 404);
   return next(err);
-} );
+});
 
-/**General error handler */
+/** general error handler */
 
 app.use((err, req, res, next) => {
-    res.status(err.status || 500);
+  res.status(err.status || 500);
 
-    return res.json({
-        error: err.message
-    });
+  return res.json({
+    error: err,
+    message: err.message
+  });
 });
 
 

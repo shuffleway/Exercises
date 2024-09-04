@@ -1,12 +1,16 @@
 /** Routes for invoices. */
-
-
 const express = require("express");
 const ExpressError = require("../expressError")
 const db = require("../db");
 
 let router = new express.Router();
 
+
+/** GET / => list of invoices.
+ *
+ * =>  {invoices: [{id, comp_code}, ...]}
+ *
+ * */
 
 router.get("/", async function (req, res, next) {
   try {
@@ -24,6 +28,17 @@ router.get("/", async function (req, res, next) {
   }
 });
 
+
+/** GET /[id] => detail on invoice
+ *
+ * =>  {invoices: {id,
+ *                amt,
+ *                paid,
+ *                add_date,
+ *                paid_date,
+ *                company: {code, name, description}}}
+ *
+ * */
 
 router.get("/:id", async function (req, res, next) {
   try {
@@ -172,6 +187,5 @@ router.delete("/:id", async function (req, res, next) {
     return next(err);
   }
 });
-
 
 module.exports = router;
