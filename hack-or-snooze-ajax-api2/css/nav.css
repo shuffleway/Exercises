@@ -1,0 +1,40 @@
+/* Navigation bar */
+
+nav {
+    display: flex;
+    background-color: #ff6600;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 3px 3px 0 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+   
+    padding-right: 4px;
+  }
+/* 
+  .navbar-menu {
+    font-size: 0px;
+    border-right: 3px solid black;
+    
+  }
+   */
+  .nav-link-menu{
+    border-left: 1px solid black;
+    font-size: 0.85rem;
+    margin: 0 3px;
+    padding-left: 8px;
+  }
+  .nav-link {
+    font-size: 0.85rem;
+    margin: 0 3px;
+  }
+  
+  .nav-right {
+    margin-left: auto;
+    text-align: right;
+  }
+
+
+  
